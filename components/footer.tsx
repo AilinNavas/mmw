@@ -25,9 +25,6 @@ export function Footer() {
           </a>
         </nav>
 
-        {/* LINEA DIVISORA */}
-        <div className="w-24 h-px bg-[#65cf72]/30 mt-2" />
-
         {/* COPYRIGHT */}
         <p className="text-gray-500 text-xs mt-2">
           © 2025 Mucho Marketing — Transformando conversaciones en ventas.
