@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="w-full mt-24 border-t border-white/10 py-10 bg-black">
+    <footer className="w-full mt-24 border-t border-white/10 py-10 bg-black/10 backdrop-blur-sm">
       <div className="container mx-auto px-4 text-center flex flex-col items-center gap-4">
 
         {/* LINKS */}

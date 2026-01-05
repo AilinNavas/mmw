@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-
+import { AnimatedBackground } from "@/components/AnimatedBackground"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,11 +24,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className={inter.className}>
-     <body className="relative font-inter">
-        
-        {children}
-        <Analytics />
-      </body>
+
+          <body className="min-h-screen bg-black text-white">
+  <AnimatedBackground />
+
+  <main className="relative z-10">
+    {children}
+    <Analytics />
+  </main>
+</body>
+
+     
     </html>
   )
 }

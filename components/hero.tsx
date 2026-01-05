@@ -4,8 +4,8 @@ import { WhatsAppCTA } from "@/components/whatsapp-cta"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-28 pb-20 bg-black">
-      <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
+    <section className="relative min-h-screen flex items-center justify-center pt-28 pb-20">
+      <div className="relative container mx-auto px-4 text-center max-w-4xl">
 
         {/* Título */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-2">

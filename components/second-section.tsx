@@ -8,7 +8,7 @@ const features = ["IA", "Automatizaciones", "Mensajes Inteligentes"]
 
 export function SecondSection() {
   return (
-<section className="relative min-h-screen flex items-center justify-center bg-black pt-24 pb-20">
+<section className="relative min-h-screen flex items-center justify-center pt-24 pb-20">
       <div className="container mx-auto px-4 text-center max-w-3xl">
   
 

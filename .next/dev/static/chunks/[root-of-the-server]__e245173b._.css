@@ -653,6 +653,10 @@
     isolation: isolate;
   }
 
+  .z-0 {
+    z-index: 0;
+  }
+
   .z-10 {
     z-index: 10;
   }
@@ -1126,10 +1130,6 @@
     width: calc(var(--spacing) * 9);
   }
 
-  .w-24 {
-    width: calc(var(--spacing) * 24);
-  }
-
   .w-64 {
     width: calc(var(--spacing) * 64);
   }
@@ -1368,6 +1368,10 @@
 
   .touch-none {
     touch-action: none;
+  }
+
+  .resize {
+    resize: both;
   }
 
   .resize-none {
@@ -1710,11 +1714,6 @@
     background-color: #65cf72;
   }
 
-  .bg-\[\#65cf72\]\/30 {
-    background-color: #65cf724d;
-    background-color: lab(75.2308% -46.6596 36.3315 / .3);
-  }
-
   .bg-accent {
     background-color: var(--accent);
   }
@@ -1727,6 +1726,16 @@
     background-color: var(--color-black);
   }
 
+  .bg-black\/10 {
+    background-color: #0000001a;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/10 {
+      background-color: color-mix(in oklab, var(--color-black) 10%, transparent);
+    }
+  }
+
   .bg-black\/50 {
     background-color: #00000080;
   }
@@ -1734,16 +1743,6 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-black\/50 {
       background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
-    }
-  }
-
-  .bg-black\/80 {
-    background-color: #000c;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-black\/80 {
-      background-color: color-mix(in oklab, var(--color-black) 80%, transparent);
     }
   }
 
@@ -5469,25 +5468,6 @@
     --sidebar-border: lab(15.204% 0 0);
     --sidebar-ring: lab(34.924% 0 0);
   }
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0%;
-  }
-
-  50% {
-    background-position: 100%;
-  }
-
-  100% {
-    background-position: 0%;
-  }
-}
-
-.animate-gradient {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) 0 0 / 400% 400%;
-  animation: 15s infinite gradient-animation;
 }
 
 @property --tw-translate-x {
