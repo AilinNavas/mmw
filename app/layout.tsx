@@ -3,7 +3,8 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-import { AnimatedBackground } from "@/components/AnimatedBackground"
+// import { AnimatedBackground } from "@/components/AnimatedBackground"
+import { Background3 } from "@/components/Background3"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,7 +27,8 @@ export default function RootLayout({
     <html lang="es" className={inter.className}>
 
           <body className="min-h-screen bg-black text-white">
-  <AnimatedBackground />
+  {/* <AnimatedBackground /> */}
+  <Background3 />
 
   <main className="relative z-10">
     {children}
