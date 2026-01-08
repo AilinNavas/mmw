@@ -8,7 +8,7 @@ export function Hero() {
       <div className="relative container mx-auto px-4 text-center max-w-4xl">
 
         {/* Título */}
-        <h1 className="text-5xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-2">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl bg-linear-to-b from-white to-white/90 bg-clip-text text-transparent font-bold leading-tight mb-2">
           <span className="text-[#57b162]  block">Más conversaciones</span>
           <span className="block">terminan en ventas</span>
         </h1>
@@ -16,14 +16,25 @@ export function Hero() {
         {/* Subtítulo dinámico */}
         <DynamicText
           text="No dejes oportunidades sin responder"
-          className="text-xl md:text-2xl font-light text-gray-300 mb-12 italic"
+          className="text-xl md:text-2xl font-light text-gray-300 mb-12 italic
+             drop-shadow-[0_0_12px_rgba(255,255,255,0.25)]
+             md:drop-shadow-[0_0_16px_rgba(255,255,255,0.35)]"
         />
 
         {/* GIF / Video loop */}
         <div className="flex justify-center mb-10">
+       
+        <img
+          src="/images/Hero-video.gif"
+          alt="Demo del producto"
+          className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl"
+        />
+        </div>
+
+        {/* <div className="flex justify-center mb-10">
           <div className="relative">
             <video
-              src="/images/hero-video.mp4"
+              src="/images/hero2.mp4"
               autoPlay
               loop
               muted
@@ -31,7 +42,7 @@ export function Hero() {
               className="w-full max-w-2xl h-auto rounded-xl shadow-2xl"
             ></video>
           </div>
-        </div>
+        </div> */}
 
         {/* Call To Action */}
         <div className="mb-6">

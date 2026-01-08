@@ -27,7 +27,12 @@ export function SecondSection() {
         
         {/* VIDEO CENTRAL */}
         <div className="flex justify-center mb-12">
-          <video
+           <img
+              src="/images/hero2.gif"
+              alt="Demo del producto"
+              className=" max-w-sm h-auto rounded-xl shadow-2xl"
+            />
+          {/* <video
             className="w-full max-w-xl rounded-xl"
             autoPlay
             muted
@@ -35,7 +40,7 @@ export function SecondSection() {
             playsInline
           >
             <source src="/images/Second-Section.mp4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
 
         <WhatsAppCTA

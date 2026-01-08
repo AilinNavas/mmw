@@ -147,7 +147,7 @@ function Hero() {
             className: "relative container mx-auto px-4 text-center max-w-4xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-5xl md:text-6xl lg:text-7xl text-white font-bold leading-tight mb-2",
+                    className: "text-5xl md:text-6xl lg:text-7xl bg-linear-to-b from-white to-white/90 bg-clip-text text-transparent font-bold leading-tight mb-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "text-[#57b162]  block",
@@ -173,7 +173,7 @@ function Hero() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DynamicText"], {
                     text: "No dejes oportunidades sin responder",
-                    className: "text-xl md:text-2xl font-light text-gray-300 mb-12 italic"
+                    className: "text-xl md:text-2xl font-light text-gray-300 mb-12 italic drop-shadow-[0_0_12px_rgba(255,255,255,0.25)] md:drop-shadow-[0_0_16px_rgba(255,255,255,0.35)]"
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
                     lineNumber: 17,
@@ -181,28 +181,18 @@ function Hero() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex justify-center mb-10",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                            src: "/images/hero-video.mp4",
-                            autoPlay: true,
-                            loop: true,
-                            muted: true,
-                            playsInline: true,
-                            className: "w-full max-w-2xl h-auto rounded-xl shadow-2xl"
-                        }, void 0, false, {
-                            fileName: "[project]/components/hero.tsx",
-                            lineNumber: 25,
-                            columnNumber: 13
-                        }, this)
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: "/images/Hero-video.gif",
+                        alt: "Demo del producto",
+                        className: "max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 24,
-                        columnNumber: 11
+                        lineNumber: 27,
+                        columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 23,
+                    lineNumber: 25,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -212,12 +202,12 @@ function Hero() {
                         microtext: "Empezar tarde > Dudar = Procrastinar"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 38,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 37,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]
@@ -254,7 +244,7 @@ function FirstSection() {
             className: "container mx-auto px-4 text-center max-w-3xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-2",
+                    className: "text-4xl md:text-5xl lg:text-6xl bg-linear-to-b from-white to-white/90 bg-clip-text text-transparent font-bold leading-tight mb-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "block",
@@ -288,24 +278,14 @@ function FirstSection() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex justify-center mb-12",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                        className: "w-full max-w-xl rounded-xl",
-                        autoPlay: true,
-                        muted: true,
-                        loop: true,
-                        playsInline: true,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/images/First-Section.mp4",
-                            type: "video/mp4"
-                        }, void 0, false, {
-                            fileName: "[project]/components/first-section.tsx",
-                            lineNumber: 31,
-                            columnNumber: 13
-                        }, this)
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: "/images/First-Section.gif",
+                        alt: "Demo del producto",
+                        className: "md:max-w-4xl max-w-xl h-auto rounded-xl shadow-2xl"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
                         lineNumber: 24,
-                        columnNumber: 11
+                        columnNumber: 12
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/first-section.tsx",
@@ -330,12 +310,12 @@ function FirstSection() {
                         microtext: "Tus clientes ya están en WhatsApp. ¿Y tú?"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
-                        lineNumber: 41,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/first-section.tsx",
-                    lineNumber: 36,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this)
             ]
@@ -413,24 +393,14 @@ function SecondSection() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex justify-center mb-12",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                            className: "w-full max-w-xl rounded-xl",
-                            autoPlay: true,
-                            muted: true,
-                            loop: true,
-                            playsInline: true,
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                src: "/images/Second-Section.mp4",
-                                type: "video/mp4"
-                            }, void 0, false, {
-                                fileName: "[project]/components/second-section.tsx",
-                                lineNumber: 37,
-                                columnNumber: 13
-                            }, this)
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: "/images/hero2.gif",
+                            alt: "Demo del producto",
+                            className: " max-w-sm h-auto rounded-xl shadow-2xl"
                         }, void 0, false, {
                             fileName: "[project]/components/second-section.tsx",
                             lineNumber: 30,
-                            columnNumber: 11
+                            columnNumber: 12
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/second-section.tsx",
@@ -442,7 +412,7 @@ function SecondSection() {
                         microtext: "Automatiza respuestas. Multiplica resultados."
                     }, void 0, false, {
                         fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 41,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
@@ -499,7 +469,7 @@ function ThirdSection() {
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
                                 lineNumber: 18,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "block text-[#65cf72]",
@@ -507,13 +477,13 @@ function ThirdSection() {
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
                                 lineNumber: 19,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/third-section.tsx",
                         lineNumber: 17,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DynamicText"], {
                         texts: opportunities,
@@ -521,47 +491,37 @@ function ThirdSection() {
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
                         lineNumber: 22,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex justify-center mb-12",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                            className: "w-full max-w-xl rounded-xl",
-                            autoPlay: true,
-                            muted: true,
-                            loop: true,
-                            playsInline: true,
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                src: "/images/Third-Section.mp4",
-                                type: "video/mp4"
-                            }, void 0, false, {
-                                fileName: "[project]/components/third-section.tsx",
-                                lineNumber: 33,
-                                columnNumber: 13
-                            }, this)
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: "/images/Third-Section.gif",
+                            alt: "Demo del producto",
+                            className: " max-w-sm h-auto rounded-xl shadow-2xl"
                         }, void 0, false, {
                             fileName: "[project]/components/third-section.tsx",
                             lineNumber: 26,
-                            columnNumber: 11
+                            columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
                         lineNumber: 25,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
                         message: "¡Estoy listo para crecer!",
                         microtext: "El momento es ahora. El lugar es aquí."
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 37,
-                        columnNumber: 9
+                        lineNumber: 42,
+                        columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/third-section.tsx",
                 lineNumber: 16,
-                columnNumber: 7
+                columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/third-section.tsx",

@@ -9,7 +9,7 @@ export function FirstSection() {
       <div className="container mx-auto px-4 text-center max-w-3xl">
 
         {/* TITULO */}
-        <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-2">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl bg-linear-to-b from-white to-white/90 bg-clip-text text-transparent font-bold leading-tight mb-2">
           <span className="block">Donde tus clientes</span>
           <span className="block  text-[#65cf72]">te van a encontrar</span>
         </h2>
@@ -21,7 +21,12 @@ export function FirstSection() {
 
         {/* VIDEO CENTRAL */}
         <div className="flex justify-center mb-12">
-          <video
+           <img
+          src="/images/First-Section.gif"
+          alt="Demo del producto"
+          className="md:max-w-4xl max-w-xl h-auto rounded-xl shadow-2xl"
+        />
+          {/* <video
             className="w-full max-w-xl rounded-xl"
             autoPlay
             muted
@@ -29,7 +34,7 @@ export function FirstSection() {
             playsInline
           >
             <source src="/images/First-Section.mp4" type="video/mp4" />
-          </video>
+          </video> */}
         </div>
 
         {/* CTA */}
