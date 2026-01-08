@@ -26,17 +26,9 @@ export function ThirdSection() {
             <img
               src="/images/Third-Section.gif"
               alt="Demo del producto"
-              className=" max-w-sm h-auto rounded-xl shadow-2xl"
+              className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
             />
-            {/* <video
-            className="w-full max-w-xl rounded-xl"
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src="/images/Third-Section.mp4" type="video/mp4" />
-          </video> */}
+      
           </div>
 
           <WhatsAppCTA message="¡Estoy listo para crecer!" microtext="El momento es ahora. El lugar es aquí." />

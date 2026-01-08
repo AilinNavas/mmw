@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-// import { AnimatedBackground } from "@/components/AnimatedBackground"
 import { Background3 } from "@/components/Background3"
 
 const inter = Inter({

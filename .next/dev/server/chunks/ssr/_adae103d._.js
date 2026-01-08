@@ -184,7 +184,7 @@ function Hero() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: "/images/Hero-video.gif",
                         alt: "Demo del producto",
-                        className: "max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl"
+                        className: "max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
                         lineNumber: 27,
@@ -202,12 +202,12 @@ function Hero() {
                         microtext: "Empezar tarde > Dudar = Procrastinar"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 49,
+                        lineNumber: 37,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 48,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             ]
@@ -281,7 +281,7 @@ function FirstSection() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: "/images/First-Section.gif",
                         alt: "Demo del producto",
-                        className: "md:max-w-4xl max-w-xl h-auto rounded-xl shadow-2xl"
+                        className: "md:max-w-4xl max-w-xs h-auto rounded-xl shadow-2xl border-2 border-green-500"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
                         lineNumber: 24,
@@ -310,12 +310,12 @@ function FirstSection() {
                         microtext: "Tus clientes ya están en WhatsApp. ¿Y tú?"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
-                        lineNumber: 46,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/first-section.tsx",
-                    lineNumber: 41,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             ]
@@ -396,7 +396,7 @@ function SecondSection() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: "/images/hero2.gif",
                             alt: "Demo del producto",
-                            className: " max-w-sm h-auto rounded-xl shadow-2xl"
+                            className: "max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
                         }, void 0, false, {
                             fileName: "[project]/components/second-section.tsx",
                             lineNumber: 30,
@@ -412,7 +412,7 @@ function SecondSection() {
                         microtext: "Automatiza respuestas. Multiplica resultados."
                     }, void 0, false, {
                         fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 46,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this)
                 ]
@@ -498,7 +498,7 @@ function ThirdSection() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: "/images/Third-Section.gif",
                             alt: "Demo del producto",
-                            className: " max-w-sm h-auto rounded-xl shadow-2xl"
+                            className: "max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
                         }, void 0, false, {
                             fileName: "[project]/components/third-section.tsx",
                             lineNumber: 26,
@@ -514,7 +514,7 @@ function ThirdSection() {
                         microtext: "El momento es ahora. El lugar es aquí."
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 42,
+                        lineNumber: 34,
                         columnNumber: 11
                     }, this)
                 ]

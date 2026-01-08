@@ -27,22 +27,10 @@ export function Hero() {
         <img
           src="/images/Hero-video.gif"
           alt="Demo del producto"
-          className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl"
+          className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
         />
         </div>
 
-        {/* <div className="flex justify-center mb-10">
-          <div className="relative">
-            <video
-              src="/images/hero2.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full max-w-2xl h-auto rounded-xl shadow-2xl"
-            ></video>
-          </div>
-        </div> */}
 
         {/* Call To Action */}
         <div className="mb-6">

@@ -24,17 +24,9 @@ export function FirstSection() {
            <img
           src="/images/First-Section.gif"
           alt="Demo del producto"
-          className="md:max-w-4xl max-w-xl h-auto rounded-xl shadow-2xl"
+          className="md:max-w-4xl max-w-xs h-auto rounded-xl shadow-2xl border-2 border-green-500"
         />
-          {/* <video
-            className="w-full max-w-xl rounded-xl"
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src="/images/First-Section.mp4" type="video/mp4" />
-          </video> */}
+    
         </div>
 
         {/* CTA */}

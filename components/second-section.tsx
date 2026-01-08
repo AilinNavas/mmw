@@ -30,17 +30,8 @@ export function SecondSection() {
            <img
               src="/images/hero2.gif"
               alt="Demo del producto"
-              className=" max-w-sm h-auto rounded-xl shadow-2xl"
+              className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
             />
-          {/* <video
-            className="w-full max-w-xl rounded-xl"
-            autoPlay
-            muted
-            loop
-            playsInline
-          >
-            <source src="/images/Second-Section.mp4" type="video/mp4" />
-          </video> */}
         </div>
 
         <WhatsAppCTA
