@@ -9,7 +9,7 @@ interface WhatsAppCTAProps {
 }
 
 export function WhatsAppCTA({ message, microtext, className }: WhatsAppCTAProps) {
-  const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`
+  const whatsappUrl = `https://wa.me/5493519046945?text=${encodeURIComponent(message)}`
 
   return (
     <div className={cn("flex flex-col items-center gap-4", className)}>

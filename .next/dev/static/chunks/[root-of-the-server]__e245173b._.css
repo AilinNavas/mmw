@@ -194,6 +194,7 @@
     --container-sm: 24rem;
     --container-md: 28rem;
     --container-lg: 32rem;
+    --container-xl: 36rem;
     --container-3xl: 48rem;
     --container-4xl: 56rem;
     --text-xs: .75rem;
@@ -903,6 +904,10 @@
 
   .field-sizing-content {
     field-sizing: content;
+  }
+
+  .aspect-9\/19 {
+    aspect-ratio: 9 / 19;
   }
 
   .aspect-square {
@@ -4526,20 +4531,26 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:max-w-4xl {
-      max-width: var(--container-4xl);
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:max-w-\[420px\] {
       max-width: 420px;
     }
   }
 
   @media (min-width: 48rem) {
+    .md\:max-w-md {
+      max-width: var(--container-md);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:max-w-sm {
       max-width: var(--container-sm);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:max-w-xl {
+      max-width: var(--container-xl);
     }
   }
 

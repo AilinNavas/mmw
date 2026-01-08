@@ -23,9 +23,18 @@ export function Hero() {
 
         {/* GIF / Video loop */}
         <div className="flex justify-center mb-10">
-          <video autoPlay loop muted playsInline className="max-w-xs md:max-w-sm h-auto">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            aria-hidden="true"
+            className="max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none"
+          >
             <source src="/videos/Hero-video.webm" type="video/webm" />
           </video>
+
         </div>
 
 

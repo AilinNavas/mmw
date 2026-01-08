@@ -27,9 +27,17 @@ export function SecondSection() {
 
           {/* VIDEO CENTRAL */}
           <div className="flex justify-center mb-12">
-            <video autoPlay loop muted playsInline className="max-w-xs md:max-w-sm h-auto">
-              <source src="/videos/hero2.webm" type="video/webm" />
-            </video>
+            <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            aria-hidden="true"
+            className="max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none"
+          >
+            <source src="/videos/hero2.webm" type="video/webm" />
+          </video>
           </div>
 
           <WhatsAppCTA

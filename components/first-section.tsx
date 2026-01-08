@@ -21,7 +21,13 @@ export function FirstSection() {
 
         {/* VIDEO CENTRAL */}
         <div className="flex justify-center mb-12">
-          <video autoPlay loop muted playsInline>
+          <video autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            aria-hidden="true"
+            className=" pointer-events-none">
             <source src="/videos/web.webm" type="video/webm" />
           </video>
 

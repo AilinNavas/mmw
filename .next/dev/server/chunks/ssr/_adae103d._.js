@@ -70,7 +70,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$
 ;
 ;
 function WhatsAppCTA({ message, microtext, className }) {
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5493519046945?text=${encodeURIComponent(message)}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex flex-col items-center gap-4", className),
         children: [
@@ -186,13 +186,15 @@ function Hero() {
                         loop: true,
                         muted: true,
                         playsInline: true,
-                        className: "max-w-xs md:max-w-sm h-auto",
+                        preload: "metadata",
+                        "aria-hidden": "true",
+                        className: "max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/images/Hero-video.webm",
+                            src: "/videos/Hero-video.webm",
                             type: "video/webm"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
-                            lineNumber: 27,
+                            lineNumber: 35,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
@@ -212,12 +214,12 @@ function Hero() {
                         microtext: "Empezar tarde > Dudar = Procrastinar"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 34,
+                        lineNumber: 43,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 33,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             ]
@@ -293,12 +295,15 @@ function FirstSection() {
                         loop: true,
                         muted: true,
                         playsInline: true,
+                        preload: "metadata",
+                        "aria-hidden": "true",
+                        className: " pointer-events-none",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/images/web.webm",
+                            src: "/videos/web.webm",
                             type: "video/webm"
                         }, void 0, false, {
                             fileName: "[project]/components/first-section.tsx",
-                            lineNumber: 25,
+                            lineNumber: 31,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
@@ -329,12 +334,12 @@ function FirstSection() {
                         microtext: "Tus clientes ya están en WhatsApp. ¿Y tú?"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
-                        lineNumber: 36,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/first-section.tsx",
-                    lineNumber: 31,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this)
             ]
@@ -417,14 +422,16 @@ function SecondSection() {
                             loop: true,
                             muted: true,
                             playsInline: true,
-                            className: "max-w-xs md:max-w-sm h-auto",
+                            preload: "metadata",
+                            "aria-hidden": "true",
+                            className: "max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                src: "/images/hero2.webm",
+                                src: "/videos/hero2.webm",
                                 type: "video/webm"
                             }, void 0, false, {
                                 fileName: "[project]/components/second-section.tsx",
-                                lineNumber: 31,
-                                columnNumber: 15
+                                lineNumber: 39,
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/second-section.tsx",
@@ -441,7 +448,7 @@ function SecondSection() {
                         microtext: "Automatiza respuestas. Multiplica resultados."
                     }, void 0, false, {
                         fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 35,
+                        lineNumber: 43,
                         columnNumber: 11
                     }, this)
                 ]
@@ -529,14 +536,16 @@ function ThirdSection() {
                             loop: true,
                             muted: true,
                             playsInline: true,
-                            className: "max-w-xs md:max-w-sm h-auto",
+                            preload: "metadata",
+                            "aria-hidden": "true",
+                            className: "max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                src: "/images/Third-Section.webm",
+                                src: "/videos/Third-Section.webm",
                                 type: "video/webm"
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
-                                lineNumber: 27,
-                                columnNumber: 15
+                                lineNumber: 35,
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/third-section.tsx",
@@ -553,7 +562,7 @@ function ThirdSection() {
                         microtext: "El momento es ahora. El lugar es aquí."
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 31,
+                        lineNumber: 39,
                         columnNumber: 11
                     }, this)
                 ]
