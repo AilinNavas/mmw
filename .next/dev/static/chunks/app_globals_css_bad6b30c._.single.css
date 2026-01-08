@@ -1550,11 +1550,6 @@
     border-width: 0;
   }
 
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
-
   .border-\[1\.5px\] {
     border-style: var(--tw-border-style);
     border-width: 1.5px;
@@ -1615,10 +1610,6 @@
 
   .border-destructive {
     border-color: var(--destructive);
-  }
-
-  .border-green-500 {
-    border-color: var(--color-green-500);
   }
 
   .border-green-500\/20 {
@@ -1864,17 +1855,17 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
 
-  .via-green-500\/25 {
-    --tw-gradient-via: #00c75840;
+  .via-green-500\/50 {
+    --tw-gradient-via: #00c75880;
   }
 
   @supports (color: color-mix(in lab, red, red)) {
-    .via-green-500\/25 {
-      --tw-gradient-via: color-mix(in oklab, var(--color-green-500) 25%, transparent);
+    .via-green-500\/50 {
+      --tw-gradient-via: color-mix(in oklab, var(--color-green-500) 50%, transparent);
     }
   }
 
-  .via-green-500\/25 {
+  .via-green-500\/50 {
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
   }
@@ -2377,11 +2368,6 @@
 
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a), 0 1px 2px -1px var(--tw-shadow-color, #0000001a);
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-
-  .shadow-2xl {
-    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, #00000040);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 

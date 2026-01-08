@@ -23,12 +23,9 @@ export function ThirdSection() {
 
           {/* VIDEO CENTRAL */}
           <div className="flex justify-center mb-12">
-            <img
-              src="/images/Third-Section.gif"
-              alt="Demo del producto"
-              className="max-w-xs md:max-w-sm h-auto"
-            />
-      
+            <video autoPlay loop muted playsInline className="max-w-xs md:max-w-sm h-auto">
+              <source src="/videos/Third-Section.webm" type="video/webm" />
+            </video>
           </div>
 
           <WhatsAppCTA message="¡Estoy listo para crecer!" microtext="El momento es ahora. El lugar es aquí." />

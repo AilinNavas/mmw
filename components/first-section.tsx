@@ -21,12 +21,10 @@ export function FirstSection() {
 
         {/* VIDEO CENTRAL */}
         <div className="flex justify-center mb-12">
-           <img
-          src="/images/First-Section.gif"
-          alt="Demo del producto"
-          className="md:max-w-4xl max-w-xs h-auto"
-        />
-    
+          <video autoPlay loop muted playsInline>
+            <source src="/videos/web.webm" type="video/webm" />
+          </video>
+
         </div>
 
         {/* CTA */}

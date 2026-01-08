@@ -34,7 +34,7 @@ export function Background3() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="w-130 h-130 rounded-full bg-linear-to-r from-emerald-500/20 via-green-500/25 to-teal-500/20 blur-3xl"
+          className="w-130 h-130 rounded-full bg-linear-to-r from-emerald-500/20 via-green-500/50 to-teal-500/20 blur-3xl"
         />
       </div>
 
