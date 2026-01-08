@@ -24,7 +24,7 @@ export function FirstSection() {
            <img
           src="/images/First-Section.gif"
           alt="Demo del producto"
-          className="md:max-w-4xl max-w-xs h-auto rounded-xl shadow-2xl border-2 border-green-500"
+          className="md:max-w-4xl max-w-xs h-auto"
         />
     
         </div>

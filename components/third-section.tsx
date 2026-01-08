@@ -26,7 +26,7 @@ export function ThirdSection() {
             <img
               src="/images/Third-Section.gif"
               alt="Demo del producto"
-              className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
+              className="max-w-xs md:max-w-sm h-auto"
             />
       
           </div>

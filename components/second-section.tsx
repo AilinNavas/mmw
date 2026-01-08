@@ -30,7 +30,7 @@ export function SecondSection() {
            <img
               src="/images/hero2.gif"
               alt="Demo del producto"
-              className="max-w-xs md:max-w-sm h-auto rounded-xl shadow-2xl border-2 border-green-500"
+              className="max-w-xs md:max-w-sm h-auto"
             />
         </div>
 
