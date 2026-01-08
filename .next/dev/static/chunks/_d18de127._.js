@@ -518,14 +518,55 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/third-section.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client"
+// import { DynamicText } from "@/components/dynamic-text"
+// import { WhatsAppCTA } from "@/components/whatsapp-cta"
+// const opportunities = ["Multiplica tus oportunidades", "Magnifica tu reputación", "Maximiza tu crecimiento"]
+// export function ThirdSection() {
+//   return (
+//     <section className="relative min-h-screen flex items-center justify-center  pt-24 pb-20">
+//       <div className="container mx-auto px-4 text-center max-w-3xl">
+//         {/* Contenido */}
+//         <div className="relative z-10 container mx-auto px-4 text-center pb-20">
+//           <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-2">
+//             <span className="block mb-2">Tu empresa</span>
+//             <span className="block text-[#65cf72]">te necesita</span>
+//           </h2>
+//           <DynamicText texts={opportunities} className="text-xl md:text-2xl font-light text-gray-300 mb-12 italic" />
+//           {/* VIDEO CENTRAL */}
+//           <div className="flex justify-center mb-12">
+//             <video
+//             autoPlay
+//             loop
+//             muted
+//             playsInline
+//             preload="metadata"
+//             aria-hidden="true"
+//             className="max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none"
+//           >
+//             <source src="/videos/Third-Section.webm" type="video/webm" />
+//           </video>
+//           </div>
+//           <WhatsAppCTA message="¡Estoy listo para crecer!" microtext="El momento es ahora. El lugar es aquí." />
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
 __turbopack_context__.s([
     "ThirdSection",
     ()=>ThirdSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/dynamic-text.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/whatsapp-cta.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -534,9 +575,27 @@ const opportunities = [
     "Magnifica tu reputación",
     "Maximiza tu crecimiento"
 ];
+// ⏱ tiempo visible de cada mockup (ms)
+const SWAP_INTERVAL = 4000;
 function ThirdSection() {
+    _s();
+    const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("a");
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "ThirdSection.useEffect": ()=>{
+            const interval = setInterval({
+                "ThirdSection.useEffect.interval": ()=>{
+                    setActive({
+                        "ThirdSection.useEffect.interval": (prev)=>prev === "a" ? "b" : "a"
+                    }["ThirdSection.useEffect.interval"]);
+                }
+            }["ThirdSection.useEffect.interval"], SWAP_INTERVAL);
+            return ({
+                "ThirdSection.useEffect": ()=>clearInterval(interval)
+            })["ThirdSection.useEffect"];
+        }
+    }["ThirdSection.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative min-h-screen flex items-center justify-center  pt-24 pb-20",
+        className: "relative min-h-screen flex items-center justify-center pt-24 pb-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-4 text-center max-w-3xl",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -550,7 +609,7 @@ function ThirdSection() {
                                 children: "Tu empresa"
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
-                                lineNumber: 18,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -558,13 +617,13 @@ function ThirdSection() {
                                 children: "te necesita"
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
-                                lineNumber: 19,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 17,
+                        lineNumber: 79,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DynamicText"], {
@@ -572,35 +631,114 @@ function ThirdSection() {
                         className: "text-xl md:text-2xl font-light text-gray-300 mb-12 italic"
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 22,
+                        lineNumber: 84,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex justify-center mb-12",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                            autoPlay: true,
-                            loop: true,
-                            muted: true,
-                            playsInline: true,
-                            preload: "metadata",
-                            "aria-hidden": "true",
-                            className: "max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                src: "/videos/Third-Section.webm",
-                                type: "video/webm"
-                            }, void 0, false, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "relative w-full max-w-sm aspect-9/19 overflow-hidden",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                                mode: "wait",
+                                children: [
+                                    active === "a" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].video, {
+                                        autoPlay: true,
+                                        loop: true,
+                                        muted: true,
+                                        playsInline: true,
+                                        preload: "metadata",
+                                        "aria-hidden": "true",
+                                        className: "absolute inset-0 w-full h-full pointer-events-none",
+                                        initial: {
+                                            opacity: 0,
+                                            scale: 0.96
+                                        },
+                                        animate: {
+                                            opacity: 1,
+                                            scale: 1
+                                        },
+                                        exit: {
+                                            opacity: 0,
+                                            scale: 0.98
+                                        },
+                                        transition: {
+                                            duration: 0.9,
+                                            ease: [
+                                                0.22,
+                                                1,
+                                                0.36,
+                                                1
+                                            ]
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                            src: "/videos/Third-Section-1.webm",
+                                            type: "video/webm"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/third-section.tsx",
+                                            lineNumber: 112,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, "video-a", false, {
+                                        fileName: "[project]/components/third-section.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 19
+                                    }, this),
+                                    active === "b" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].video, {
+                                        autoPlay: true,
+                                        loop: true,
+                                        muted: true,
+                                        playsInline: true,
+                                        preload: "metadata",
+                                        "aria-hidden": "true",
+                                        className: "absolute inset-0 w-full h-full pointer-events-none",
+                                        initial: {
+                                            opacity: 0,
+                                            scale: 0.96
+                                        },
+                                        animate: {
+                                            opacity: 1,
+                                            scale: 1
+                                        },
+                                        exit: {
+                                            opacity: 0,
+                                            scale: 0.98
+                                        },
+                                        transition: {
+                                            duration: 0.9,
+                                            ease: [
+                                                0.22,
+                                                1,
+                                                0.36,
+                                                1
+                                            ]
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                            src: "/videos/Third-Section-2.webm",
+                                            type: "video/webm"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/third-section.tsx",
+                                            lineNumber: 134,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, "video-b", false, {
+                                        fileName: "[project]/components/third-section.tsx",
+                                        lineNumber: 117,
+                                        columnNumber: 19
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/third-section.tsx",
-                                lineNumber: 35,
-                                columnNumber: 13
+                                lineNumber: 93,
+                                columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/third-section.tsx",
-                            lineNumber: 26,
+                            lineNumber: 91,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 25,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
@@ -608,26 +746,27 @@ function ThirdSection() {
                         microtext: "El momento es ahora. El lugar es aquí."
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
-                        lineNumber: 39,
+                        lineNumber: 142,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/third-section.tsx",
-                lineNumber: 16,
+                lineNumber: 78,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/third-section.tsx",
-            lineNumber: 12,
+            lineNumber: 76,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/third-section.tsx",
-        lineNumber: 11,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }
+_s(ThirdSection, "J9iKHueoW3nrnAR3mffEhIopbJQ=");
 _c = ThirdSection;
 var _c;
 __turbopack_context__.k.register(_c, "ThirdSection");
