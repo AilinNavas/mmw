@@ -16,7 +16,7 @@ export function FirstSection() {
 
         {/* SUBTITULO */}
         <p className="text-xl md:text-2xl font-light text-gray-300 mb-12 italic">
-          Ciclos de venta más rápidos
+         Visibilidad durante 24 horas, todos los días
         </p>
 
         {/* VIDEO CENTRAL */}
@@ -41,7 +41,7 @@ export function FirstSection() {
         >
           <WhatsAppCTA
             message="Quiero estar donde están mis clientes"
-            microtext="Tus clientes ya están en WhatsApp. ¿Y tú?"
+            microtext="Usa las redes para vender, no solo para mostrar"
           />
         </motion.div>
 

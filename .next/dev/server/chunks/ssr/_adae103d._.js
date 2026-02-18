@@ -211,7 +211,7 @@ function Hero() {
                     className: "mb-6",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
                         message: "¡Quiero convertir más conversaciones en ventas!",
-                        microtext: "Empezar tarde > Dudar = Procrastinar"
+                        microtext: "Tus clientes ya están en WhatsApp. ¿Y tú?"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
                         lineNumber: 43,
@@ -282,7 +282,7 @@ function FirstSection() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-xl md:text-2xl font-light text-gray-300 mb-12 italic",
-                    children: "Ciclos de venta más rápidos"
+                    children: "Visibilidad durante 24 horas, todos los días"
                 }, void 0, false, {
                     fileName: "[project]/components/first-section.tsx",
                     lineNumber: 18,
@@ -331,7 +331,7 @@ function FirstSection() {
                     },
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
                         message: "Quiero estar donde están mis clientes",
-                        microtext: "Tus clientes ya están en WhatsApp. ¿Y tú?"
+                        microtext: "Usa las redes para vender, no solo para mostrar"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
                         lineNumber: 42,

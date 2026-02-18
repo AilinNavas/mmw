@@ -42,7 +42,7 @@ export function Hero() {
         <div className="mb-6">
           <WhatsAppCTA
             message="¡Quiero convertir más conversaciones en ventas!"
-            microtext="Empezar tarde &gt; Dudar = Procrastinar"
+            microtext="Tus clientes ya están en WhatsApp. ¿Y tú?"
           />
         </div>
 

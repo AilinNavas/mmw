@@ -581,10 +581,6 @@
     inset-block: calc(var(--spacing) * 0);
   }
 
-  .-top-6 {
-    top: calc(var(--spacing) * -6);
-  }
-
   .-top-12 {
     top: calc(var(--spacing) * -12);
   }
@@ -627,10 +623,6 @@
 
   .top-full {
     top: 100%;
-  }
-
-  .-right-6 {
-    right: calc(var(--spacing) * -6);
   }
 
   .-right-12 {
@@ -917,7 +909,7 @@
     field-sizing: content;
   }
 
-  .aspect-9\/19, .aspect-\[9\/19\] {
+  .aspect-9\/19 {
     aspect-ratio: 9 / 19;
   }
 
@@ -1192,10 +1184,6 @@
 
   .w-130 {
     width: calc(var(--spacing) * 130);
-  }
-
-  .w-\[65\%\] {
-    width: 65%;
   }
 
   .w-\[100px\] {
@@ -4530,12 +4518,6 @@
   @media (min-width: 48rem) {
     .md\:flex {
       display: flex;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:w-\[70\%\] {
-      width: 70%;
     }
   }
 
