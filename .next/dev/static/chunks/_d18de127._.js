@@ -100,7 +100,7 @@ function WhatsAppCTA({ message, microtext, className }) {
                 href: whatsappUrl,
                 target: "_blank",
                 rel: "noopener noreferrer",
-                className: " group relative inline-flex items-center gap-2 bg-[#65cf72]  bg-linear-to-br from-[#65cf72] to-[#4fb85f] text-black font-semibold  px-6 py-4 rounded-full text-lg transition-all duration-300  hover:scale-[1.06] shadow-lg hover:shadow-[0_0_25px_#65cf72aa] border border-[#65cf72]/40 hover:border-[#65cf72] ",
+                className: " group relative inline-flex items-center gap-2 bg-[#65cf72]  bg-linear-to-br from-[#65cf72] to-[#4fb85f] text-black font-semibold px-6 py-4 rounded-full text-lg transition-all duration-300  hover:scale-[1.06] shadow-lg hover:shadow-[0_0_25px_#65cf72aa] border border-[#65cf72]/40 hover:border-[#65cf72] ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                         xmlns: "http://www.w3.org/2000/svg",
@@ -120,7 +120,7 @@ function WhatsAppCTA({ message, microtext, className }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        children: "Empezar hoy"
+                        children: message
                     }, void 0, false, {
                         fileName: "[project]/components/whatsapp-cta.tsx",
                         lineNumber: 42,
@@ -172,22 +172,22 @@ function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative min-h-screen flex items-center justify-center pt-28 pb-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative container mx-auto px-4 text-center max-w-4xl",
+            className: "relative container mx-auto px-4 text-center max-w-7xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-5xl md:text-6xl lg:text-7xl bg-linear-to-b from-white to-white/90 bg-clip-text text-transparent font-bold leading-tight mb-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-[#57b162]  block",
-                            children: "Más conversaciones"
+                            className: "text-[#57b162] block",
+                            children: "Cada mensaje sin respuesta"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
                             lineNumber: 12,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "block",
-                            children: "terminan en ventas"
+                            className: "block  italic",
+                            children: "se va a la competencia"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
                             lineNumber: 13,
@@ -200,15 +200,15 @@ function Hero() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DynamicText"], {
-                    text: "No dejes oportunidades sin responder",
-                    className: "text-xl md:text-2xl font-light text-gray-300 mb-12 italic drop-shadow-[0_0_12px_rgba(255,255,255,0.25)] md:drop-shadow-[0_0_16px_rgba(255,255,255,0.35)]"
+                    text: "Publicidad en Meta + WhatsApp con IA y automatizaciones. Para que tu negocio venda aunque no estés mirando el teléfono.",
+                    className: "text-xl md:text-2xl font-light text-gray-300 mt-12 italic drop-shadow-[0_0_12px_rgba(255,255,255,0.25)] md:drop-shadow-[0_0_16px_rgba(255,255,255,0.35)]"
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
                     lineNumber: 17,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-center mb-10",
+                    className: "flex justify-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                         autoPlay: true,
                         loop: true,
@@ -216,38 +216,38 @@ function Hero() {
                         playsInline: true,
                         preload: "metadata",
                         "aria-hidden": "true",
-                        className: "max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none",
+                        className: "max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
                             src: "/videos/Hero-video.webm",
                             type: "video/webm"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 25,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mb-6",
+                    className: "",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
-                        message: "¡Quiero convertir más conversaciones en ventas!",
-                        microtext: "Tus clientes ya están en WhatsApp. ¿Y tú?"
+                        message: "Probar 14 días gratis",
+                        microtext: " Sin contrato · Cancelás cuando querés"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 43,
+                        lineNumber: 44,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 42,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this)
             ]
@@ -287,14 +287,14 @@ function FirstSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative min-h-screen flex items-center justify-center pt-24 pb-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 text-center max-w-3xl",
+            className: "container mx-auto px-4 text-center max-w-7xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "text-4xl md:text-5xl lg:text-6xl bg-linear-to-b from-white to-white/90 bg-clip-text text-transparent font-bold leading-tight mb-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "block",
-                            children: "Donde tus clientes"
+                            children: "Tus clientes están scrolleando "
                         }, void 0, false, {
                             fileName: "[project]/components/first-section.tsx",
                             lineNumber: 13,
@@ -302,7 +302,7 @@ function FirstSection() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "block  text-[#65cf72]",
-                            children: "te van a encontrar"
+                            children: "Instagram y Facebook ahora mismo"
                         }, void 0, false, {
                             fileName: "[project]/components/first-section.tsx",
                             lineNumber: 14,
@@ -364,7 +364,7 @@ function FirstSection() {
                         ease: "easeOut"
                     },
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
-                        message: "Quiero estar donde están mis clientes",
+                        message: "Quiero captar más clientes",
                         microtext: "Usa las redes para vender, no solo para mostrar"
                     }, void 0, false, {
                         fileName: "[project]/components/first-section.tsx",
@@ -398,66 +398,105 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/second-section.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client"
+// import Image from "next/image"
+// import { DynamicText } from "@/components/dynamic-text"
+// import { WhatsAppCTA } from "@/components/whatsapp-cta"
+// const features = ["Sin leads fríos. ", "Sin oportunidades perdidas.", "Sin caos en WhatsApp."]
+// export function SecondSection() {
+//   return (
+//     <section className="relative min-h-screen flex items-center justify-center pt-24 pb-20">
+//       <div className="container mx-auto px-4 text-center max-w-7xl">
+//         {/* Contenido */}
+//         <div className="relative z-10 container mx-auto px-4 text-center">
+//           <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-2">
+//             <span className="block mb-2">Automatizá tus respuestas.</span>
+//             <span className="block text-[#65cf72]">Multiplicá tus cierres.</span>
+//           </h2>
+//           <DynamicText
+//             texts={features.map((feature) => `${feature}`)}
+//             className="text-xl md:text-2xl font-light text-gray-300 mb-12 italic"
+//           />
+//           {/* VIDEO CENTRAL */}
+//           <div className="flex justify-center mb-12">
+//             <video
+//             autoPlay
+//             loop
+//             muted
+//             playsInline
+//             preload="metadata"
+//             aria-hidden="true"
+//             className="max-w-xs md:max-w-sm w-full aspect-9/19 pointer-events-none"
+//           >
+//             <source src="/videos/hero2.webm" type="video/webm" />
+//           </video>
+//           </div>
+//           <WhatsAppCTA
+//             message="Quiero potenciar mis ventas con IA"
+//             microtext="Automatiza respuestas. Multiplica resultados."
+//           />
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
 __turbopack_context__.s([
     "SecondSection",
     ()=>SecondSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/dynamic-text.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/whatsapp-cta.tsx [app-client] (ecmascript)");
 "use client";
 ;
 ;
-;
 const features = [
-    "IA",
-    "Automatizaciones",
-    "Mensajes Inteligentes"
+    "Sin leads fríos.",
+    "Sin oportunidades perdidas.",
+    "Sin caos en WhatsApp."
 ];
 function SecondSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative min-h-screen flex items-center justify-center pt-24 pb-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 text-center max-w-3xl",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 container mx-auto px-4 text-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "block mb-2",
-                                children: "Fácil. Rápido."
-                            }, void 0, false, {
-                                fileName: "[project]/components/second-section.tsx",
-                                lineNumber: 18,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "block text-[#65cf72]",
-                                children: "Simple."
-                            }, void 0, false, {
-                                fileName: "[project]/components/second-section.tsx",
-                                lineNumber: 19,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 17,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dynamic$2d$text$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DynamicText"], {
-                        texts: features.map((feature)=>`Potencia tus ventas con ${feature}`),
-                        className: "text-xl md:text-2xl font-light text-gray-300 mb-12 italic"
-                    }, void 0, false, {
-                        fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 22,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-center mb-12",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+            className: "container mx-auto px-4 text-center max-w-7xl",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "block mb-2",
+                            children: "Automatizá tus respuestas."
+                        }, void 0, false, {
+                            fileName: "[project]/components/second-section.tsx",
+                            lineNumber: 68,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "block text-[#65cf72]",
+                            children: "Multiplicá tus cierres."
+                        }, void 0, false, {
+                            fileName: "[project]/components/second-section.tsx",
+                            lineNumber: 69,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/second-section.tsx",
+                    lineNumber: 67,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-base sm:text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto",
+                    children: "Integramos Kommo CRM con IA para que cada lead reciba una respuesta en segundos, se califique solo y avance en tu embudo — sin que muevas un dedo."
+                }, void 0, false, {
+                    fileName: "[project]/components/second-section.tsx",
+                    lineNumber: 73,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex justify-center mb-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                             autoPlay: true,
                             loop: true,
                             muted: true,
@@ -470,41 +509,38 @@ function SecondSection() {
                                 type: "video/webm"
                             }, void 0, false, {
                                 fileName: "[project]/components/second-section.tsx",
-                                lineNumber: 39,
-                                columnNumber: 13
+                                lineNumber: 96,
+                                columnNumber: 12
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/second-section.tsx",
-                            lineNumber: 30,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
-                        message: "Quiero potenciar mis ventas con IA",
-                        microtext: "Automatiza respuestas. Multiplica resultados."
-                    }, void 0, false, {
-                        fileName: "[project]/components/second-section.tsx",
-                        lineNumber: 43,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/second-section.tsx",
-                lineNumber: 16,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+                            lineNumber: 87,
+                            columnNumber: 12
+                        }, this),
+                        "//           "
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/second-section.tsx",
+                    lineNumber: 86,
+                    columnNumber: 10
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
+                    message: "Activar mi prueba gratuita",
+                    microtext: " Tu competencia ya responde en segundos. ¿Qué esperás?"
+                }, void 0, false, {
+                    fileName: "[project]/components/second-section.tsx",
+                    lineNumber: 101,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/components/second-section.tsx",
-            lineNumber: 12,
+            lineNumber: 64,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/second-section.tsx",
-        lineNumber: 11,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 }
@@ -597,7 +633,7 @@ function ThirdSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative min-h-screen flex items-center justify-center pt-24 pb-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 text-center max-w-3xl",
+            className: "container mx-auto px-4 text-center max-w-7xl",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative z-10 container mx-auto px-4 text-center pb-20",
                 children: [
@@ -606,7 +642,7 @@ function ThirdSection() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "block mb-2",
-                                children: "Tu empresa"
+                                children: "El que responde primero,"
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
                                 lineNumber: 80,
@@ -614,7 +650,7 @@ function ThirdSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "block text-[#65cf72]",
-                                children: "te necesita"
+                                children: "vende primero."
                             }, void 0, false, {
                                 fileName: "[project]/components/third-section.tsx",
                                 lineNumber: 81,
@@ -742,8 +778,8 @@ function ThirdSection() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$whatsapp$2d$cta$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppCTA"], {
-                        message: "¡Estoy listo para crecer!",
-                        microtext: "El momento es ahora. El lugar es aquí."
+                        message: "Empezar hoy — es gratis",
+                        microtext: "Hablamos hoy y comenzamos esta semana"
                     }, void 0, false, {
                         fileName: "[project]/components/third-section.tsx",
                         lineNumber: 142,

@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import { Raleway } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Background3 } from "@/components/Background3"
@@ -8,6 +9,11 @@ import { Background3 } from "@/components/Background3"
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+})
+const raleway = Raleway({
+  subsets: ["latin"],
+  variable: "--font-raleway",
   display: "swap",
 })
 
@@ -23,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" className={inter.className}>
+    <html lang="es" className={raleway.className}>
 
           <body className="min-h-screen bg-black text-white">
   {/* <AnimatedBackground /> */}
