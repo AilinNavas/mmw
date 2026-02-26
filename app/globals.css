@@ -119,3 +119,68 @@
   }
 }
 
+/* --- Apple-like background glows --- */
+
+.glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
+  will-change: transform, opacity;
+  animation: float 14s ease-in-out infinite;
+}
+
+.glow-primary {
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(
+    circle at center,
+    rgba(16, 185, 129, 0.45),
+    rgba(16, 185, 129, 0.15),
+    transparent 70%
+  );
+}
+
+.glow-secondary {
+  width: 720px;
+  height: 720px;
+  background: radial-gradient(
+    circle at center,
+    rgba(52, 211, 153, 0.25),
+    rgba(16, 185, 129, 0.08),
+    transparent 75%
+  );
+  animation-duration: 20s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-24px) scale(1.05);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+}
+@media (max-width: 768px) {
+  .glow-primary {
+    width: 320px;
+    height: 320px;
+    filter: blur(90px);
+  }
+
+  .glow-secondary {
+    width: 480px;
+    height: 480px;
+    filter: blur(100px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .glow {
+    animation: none;
+  }
+}

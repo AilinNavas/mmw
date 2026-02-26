@@ -40,8 +40,6 @@ export function Hero() {
           {/* VIDEO */}
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
-              {/* Glow sutil */}
-              {/* <div className="absolute inset-0  blur-3xl bg-[#57b162]/20 -z-10" /> */}
 
               <video
                 autoPlay

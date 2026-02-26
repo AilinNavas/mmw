@@ -3,8 +3,9 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { Raleway } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import "./globals.css"
-import { Background3 } from "@/components/Background3"
+ import "./globals.css"
+// import { Background3 } from "@/components/Background3"
+import { BackgroundApple } from "@/components/BackgroundApple"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,9 +32,8 @@ export default function RootLayout({
   return (
     <html lang="es" className={raleway.className}>
 
-          <body className="min-h-screen bg-black text-white">
-  {/* <AnimatedBackground /> */}
-  <Background3 />
+          <body className="min-h-screen  text-white">
+            <BackgroundApple />
 
   <main className="relative z-10">
     {children}
